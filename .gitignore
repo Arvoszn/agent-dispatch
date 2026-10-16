@@ -1,0 +1,4 @@
+﻿# regenerable run state
+runs/
+node_modules/
+*.log

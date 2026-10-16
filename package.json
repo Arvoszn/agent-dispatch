@@ -1,0 +1,28 @@
+{
+  "name": "agent-dispatch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dependency-free dispatch layer for multi-agent work: explainable routing, step budgets, an append-only run log, and readable handoffs.",
+  "main": "src/runner.js",
+  "bin": {
+    "dispatch": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "demo": "node src/cli.js demo",
+    "test": "node --test"
+  },
+  "keywords": [
+    "agents",
+    "orchestration",
+    "routing",
+    "handoff",
+    "run-log",
+    "zero-dependencies"
+  ],
+  "author": "Argelo Cumayas Nuñez (Spawntel)",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18"
+  }
+}
